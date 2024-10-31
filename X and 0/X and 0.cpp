@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 void field(char mas[3][3])
@@ -55,9 +55,9 @@ int examination0(char mas[3][3], int k)
 int main()
 {
 	setlocale(LC_ALL, "ru");
-	char mas[3][3] {{'1','2','3'}, 
-					{'1', '2', '3'},
-					{'1', '2', '3'}};
+	char mas[3][3] {{' ',' ',' '}, 
+					{' ', ' ', ' '},
+					{' ', ' ', ' '}};
 	int size1;
 	int size2;
 	int k = 0;
